@@ -1,0 +1,26 @@
+site_name: neronymous
+
+extra_css:
+  - styles/nero.css
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+  logo: images/nero.png
+  favicon: images/nero.png
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/neronymous
+
+plugins:
+  - search:
+  - git-revision-date-localized:
+      type: timeago
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
