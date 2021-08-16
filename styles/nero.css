@@ -1,0 +1,17 @@
+[data-md-color-scheme="slate"] {
+  --n-blue-dark:  #0f1f36;
+  --n-blue:       #2e425e;
+  --n-blue-light: #40587a;
+  --body-background: #171717;
+  --body-background-medium: #2f2f2f;
+
+  --md-hue:                   200;
+  --md-default-bg-color:      var(--body-background);
+  --md-primary-fg-color:      var(--n-blue-dark);
+  --md-accent-fg-color:       var(--n-blue-light);
+  --md-code-bg-color:         var(--n-blue);
+  --md-typeset-a-color:       var(--n-blue-light);
+
+  --md-footer-bg-color:       var(--n-blue-dark);
+  --md-footer-bg-color--dark: var(--body-background-medium);
+}
